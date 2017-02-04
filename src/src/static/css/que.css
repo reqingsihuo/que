@@ -1,0 +1,72 @@
+html,
+body,
+ul,
+div,
+li,
+ol,
+dl,
+dt,
+p,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #d5222b;
+  text-decoration: underline;
+}
+body {
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  line-height: 1.5em;
+  padding-top: 135px;
+}
+/*header*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.que-header {
+  height: 135px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.que-header h1 {
+  float: left;
+  padding-top: 25px;
+}
+.que-header #que-nav {
+  float: left;
+}
+.que-header #que-nav li {
+  float: left;
+  width: 140px;
+  text-align: center;
+}
+.que-header #que-nav li a {
+  display: block;
+  height: 120px;
+  line-height: 120px;
+}
